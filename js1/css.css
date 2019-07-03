@@ -1,0 +1,20 @@
+.wraper{
+    margin-left: 40%;
+    width: 300px;
+    height: 200px;
+    display:flex ;
+    flex-direction: column;
+    background: #8f8e8e7a
+}
+ input, button{
+     margin: 5px;
+     
+ }
+ span{
+     margin-top: 10px;
+     width: 100%;
+ }
+ select {
+     width: 200px;
+ }
+ 
