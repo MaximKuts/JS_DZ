@@ -1,0 +1,95 @@
+1---
+var a = 5 
+var b, c
+
+b = a * 5
+b = c = (b/2)
+------
+
+var result = prompt("Введите ваш возраст ");
+ var sum= 2019- +result;
+alert("Вы родились в:"+sum+"году")
+-----
+var result = prompt("Сколько за бортом градусов?");
+ var sum = (result*9/5)+32;
+ alert(sum+"°F")
+------
+var x = Math.floor(prompt("Введите первое число"))
+var y = Math.floor(prompt("Введите второе число"))
+alert("сумма деления нацело:"+x/y);
+---------
+var x =  prompt("Введите число")
+-----
+var pod = 9
+var kol_kvar = 3
+var kvar = 23
+var pod_sum = Math.ceil(kvar /(pod*kol_kvar));
+ var et =Math.floor(pod-((kvar /(pod*kol_kvar))));
+ console.log("Подъезд: "+pod_sum)
+  console.log("Этаж: "+et)
+ 
+if ( !isNaN(parseFloat(x)) && isFinite(x)){
+    if (x % 2 == 0) {
+    alert( "чётное" )
+    }else{
+    alert( " нечётное" )
+    }
+}else{
+alert("Ввели не число")
+}
+------------
+var x =  prompt("Как вас зовут?")
+alert( "Привет "+x+"!")
+---------
+var x =  prompt("Скажи привет")
+ x.indexOf("привет")>-1?alert("Молодец"):alert("что то пошло не так")
+-----------
+var adm = confirm("ты админ?")
+var prog = confirm("ты программист?")
+------------
+confirm("ты женшина?")?alert("ты женшина"):alert("ты мужчина")
+---------------
+var adm =[]
+adm[0]= confirm("ты админ?")
+adm[1]= confirm("ты программист?")
+confirm("ты женшина?")? adm[2]=("ты женшина"):adm[2]=("ты мужчина")
+-------------------------------------
+var mas = [8,7,6,5,4,3,2,1]
+mas[2] = mas[0]+ mas[1];
+console.log(mas)
+-------------
+var mas = ["Привет","Пока","как дела","Имя","Валя",]
+mas[2] = mas[0]+" "+ mas[1]+" "+ mas[3];
+console.log(mas)
+------------------
+var objCar = {
+"OбЪем":1.6,
+model:"Opel",
+age:10,
+}
+objCar.model=2.0;
+
+----------
+var age = +prompt("Сколько вам лет?","");
+if (age < 0){
+    alert("как так то?");
+}
+else if (age < 18){
+    alert("школьник");
+}
+else if (age > 18 && age < 30){
+    alert("молодеж");
+}
+else if (age > 30 && age < 45){
+    alert("зрелость");
+}
+else if (age > 45 && age < 60){
+    alert("закат");
+}
+else if (age > 60){
+    alert("как пенсия?");
+}
+else {
+    alert("то ли киборг, то ли ошибка"); 
+}
+-------
